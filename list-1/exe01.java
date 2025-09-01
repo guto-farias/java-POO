@@ -26,6 +26,8 @@ public class exe01 {
         grossSalary = valueHour * numberHour;
         netSalary = grossSalary - (grossSalary * 0.3f);
 
-        System.out.println("Seu salario bruto:" + grossSalary + ", seu salario liquido:" + netSalary + ".");
+        System.out.println("Seu salario bruto: R$ " + grossSalary + ", seu salario liquido: R$ " + netSalary + ".");
+
+        keyboard.close();
     }
 }
